@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        b1 obj1 = new b1();
+        obj1.execute(sc);
+
+        b2 obj2 = new b2();
+        obj2.execute(sc);
+
+        b3 obj3 = new b3();
+        obj3.execute(sc);
+
+        b4 obj4 = new b4();
+        obj4.execute(sc);
+
+        b5 obj5 = new b5();
+        obj5.execute(sc);
+
+        b6 obj6 = new b6();
+        obj6.execute(sc);
+
+    }
+}
